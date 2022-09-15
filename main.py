@@ -5,7 +5,7 @@ load_dotenv()
 from googleapiclient.discovery import build
 from utils.comment import process_comment, make_csv
 
-API_KEY = os.getenv("API_KEY")
+API_KEY = os.getenv("API_KEY") #buat file .env masukan API KEYnya
 DEVELOPER_KEY = "YOUR_API_KEY"
 
 youtube = build(
